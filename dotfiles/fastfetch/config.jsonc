@@ -1,0 +1,111 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "auto",
+        "source": "/home/emi/Pictures/Fastfetch/infamous.jpg",
+        "height": 20,
+        "padding": {
+            "top": 1,
+            "left": 2,
+            "right": 2
+        },
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+	    "break",
+        {
+            "key": "{#31}╭───────────────╮",
+            "type": "custom"
+        },
+        {
+            "key": "{#31}│ {#37} FastFetch  {#keys} {#31}│",
+            "type": "custom",
+            "format": "\u001b[33m \u001b[30m \u001b[31m \u001b[32m \u001b[34m \u001b[35m \u001b[36m \u001b[37m "
+        },
+        {
+            "key": "{#31}├───────────────┤",
+            "type": "custom"
+        },
+        {
+            "key": "{#31}│ {#37} Whoami   {#keys}   {#31}│",
+            "type": "title",
+            "format": "{user-name}"
+        },
+        {
+            "key": "{#31}│ {#37}󰇅 Hostname   {#keys} {#31}│",
+            "type": "title",
+            "format": "{host-name}"
+        },
+        {
+            "key": "{#31}│ {#37} Machine    {#keys} {#31}│",
+            "type": "host",
+            "format": "HP Victus 15"
+        },
+        {
+            "key": "{#31}│ {#37}󰣇 Distro   {#keys}   {#31}│",
+            "type": "os",
+            "format": "i use {pretty-name} btw"
+        },
+        {
+            "key": "{#31}│ {#37} Kernel   {#keys}   {#31}│",
+            "type": "kernel"
+        },
+        {
+            "key": "{#31}│ {#37}󰃭 Os age     {#keys} {#31}│",
+            "type": "command",
+            "text": "birth_install=$(stat -c %W / | tr -d '-'); if [ \"$birth_install\" -eq 0 ]; then birth_install=$(stat -c %Y /); fi; now=$(date +%s); days=$(( (now - birth_install) / 86400 )); echo \"$days days\""
+        },
+        {
+            "key": "{#31}│ {#37}󰥔 Uptime   {#keys}   {#31}│",
+            "type": "uptime"
+        },
+        {
+            "key": "{#31}├───────────────┤",
+            "type": "custom"
+        },
+        {
+            "key": "{#31}│ {#37}󰾍 WM          {#keys}{#31}│",
+            "type": "wm",
+            "format": "{pretty-name}"
+        },
+        {
+            "key": "{#31}│ {#37} Terminal   {#keys} {#31}│",
+            "type": "terminal",
+            "format": "{pretty-name}"
+        },
+        {
+            "key": "{#31}│ {#37} Shell      {#keys} {#31}│",
+            "type": "shell",
+            "format": "{pretty-name}"
+        },
+        {
+            "key": "{#31}│ {#37}󰏔 Packages    {#keys}{#31}│",
+            "type": "packages"
+        },
+        {
+            "key": "{#31}├───────────────┤",
+            "type": "custom"
+        },
+        {
+            "key": "{#31}│ {#37} Memory     {#keys} {#31}│",
+            "type": "memory"
+        },
+        {
+            "key": "{#31}│ {#37}󰉉 Disk       {#keys} {#31}│",
+            "type": "disk",
+            "folders": "/"
+        },
+	{
+	    "key": "{#31}│ {#37} Music      {#keys} {#31}│",
+	    "type": "media",
+	    "format": "{title}"
+	},
+        {
+            "key": "{#31}╰───────────────╯",
+            "type": "custom"
+        }
+    ]
+}
+

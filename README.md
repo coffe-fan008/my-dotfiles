@@ -8,4 +8,4 @@ My fastfetch image is in dotfiles/fastfetch; the Infamous Iron Man image is from
 You can find my wallpaper in dotfiles/Wallpapers along with other wallpapers, I got the Minecraft one from r/wallpapers on Reddit.
 
 ### important
-Thanks for checking out my dotfiles, they're simple, but I like them. :)
+Thanks for checking out my dotfiles, they're simple, but I like them : )

@@ -41,7 +41,6 @@
         {
             "key": "{#31}│ {#37} Machine    {#keys} {#31}│",
             "type": "host",
-            "format": "HP Victus 15"
         },
         {
             "key": "{#31}│ {#37}󰣇 Distro   {#keys}   {#31}│",

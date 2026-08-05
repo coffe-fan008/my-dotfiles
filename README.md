@@ -3,3 +3,9 @@ this are my dotfiles in this moment im using waybar for the superior bar and hyp
 
 ### fastfetch image
 My fastfetch image is in dotfiles/fastfetch; the Infamous Iron Man image is from Pinterest because I’m not currently reading the series, and besides, I only own the first comic in physical format.
+
+### Wallpaper
+You can find my wallpaper in dotfiles/Wallpapers along with other wallpapers, I got the Minecraft one from r/wallpapers on Reddit.
+
+### important
+Thanks for checking out my dotfiles, they're simple, but I like them. :)
